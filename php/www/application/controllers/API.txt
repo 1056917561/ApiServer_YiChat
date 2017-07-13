@@ -1,0 +1,399 @@
+失败 code = -1
+成功 code = 1
+
+
+#返回软件版本
+#version
+
+{
+    "data": [
+        {
+            "system": "2", 
+            "version": "1", 
+            "name": "测试2222", 
+            "url": "www.baidu.com"
+        }, 
+        {
+            "system": "1", 
+            "version": "1", 
+            "name": "测试", 
+            "url": "11111"
+        }
+    ], 
+    "code": 1000
+}
+
+#返回游戏目录
+#Game
+
+
+pid 分类ID 不提供或0时为游戏
+
+
+游戏 
+下载渠道
+区服
+平台
+
+{
+    "data": [
+        {
+            "id": "45790", 
+            "name": "像三国", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45789", 
+            "name": "弹弹岛2", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45788", 
+            "name": "全民枪战", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45787", 
+            "name": "射雕英雄传 ", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45786", 
+            "name": "倚天屠龙记 ", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45785", 
+            "name": "完美世界3D", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45784", 
+            "name": "诛仙手游 ", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45783", 
+            "name": "青云志", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45778", 
+            "name": "我守护的一切", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45777", 
+            "name": "乱斗西游2", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45776", 
+            "name": "阴阳师", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45775", 
+            "name": "倩女幽魂手游", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45774", 
+            "name": "大话西游手游", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45773", 
+            "name": "梦幻西游手游", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45791", 
+            "name": "影之刃2", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45792", 
+            "name": "极无双", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45793", 
+            "name": "装甲联盟", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45794", 
+            "name": "时空枪战", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45795", 
+            "name": "幻城", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45796", 
+            "name": "时空召唤", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45797", 
+            "name": "时空猎人", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45798", 
+            "name": "神魔", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45799", 
+            "name": "神魔圣域", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45800", 
+            "name": "部落冲突:皇室战争", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45801", 
+            "name": "梦三国", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45802", 
+            "name": "剑魂之刃", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45803", 
+            "name": "海岛奇兵", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45804", 
+            "name": "无双剑姬", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45805", 
+            "name": "少年西游记", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45806", 
+            "name": "少年三国志", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45807", 
+            "name": "女神联盟", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45808", 
+            "name": "狂暴之翼", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45809", 
+            "name": "大皇帝OL", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45810", 
+            "name": "RO", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45811", 
+            "name": "热血传奇手机版", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45812", 
+            "name": "圣斗士星矢-集结", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45813", 
+            "name": "神武2", 
+            "pid": "0"
+        }, 
+        {
+            "id": "45814", 
+            "name": "天龙八部3D", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46233", 
+            "name": "英雄联盟", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46234", 
+            "name": "地下城与勇士", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46235", 
+            "name": "天涯明月刀", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46236", 
+            "name": "穿越火线", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46237", 
+            "name": "梦幻西游pc版", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46238", 
+            "name": "大话西游2经典版", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46239", 
+            "name": "魔兽世界", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46240", 
+            "name": "天下3", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46241", 
+            "name": "守望先锋", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46242", 
+            "name": "炉石传说", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46243", 
+            "name": "DOTA2", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46244", 
+            "name": "CS:GO ", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46245", 
+            "name": "梦幻诛仙2", 
+            "pid": "0"
+        }, 
+        {
+            "id": "46246", 
+            "name": "诛仙3", 
+            "pid": "0"
+        }
+    ], 
+    "code": 1000
+}
+#申请审核
+#gameapply
+game    游戏 仅传ID
+channel 下载渠道  仅传ID
+services    区服 仅传ID
+system  平台 仅传ID
+name    角色名称
+nameimg    角色名称 图片文件
+phoneimg    绑定手机 图片文件
+imimg    聊天 图片文件
+ 
+{"code":-1}
+
+
+#登录
+#login
+{
+    user: {
+        userId: "100000", 
+        avatar: null, 
+        nick: null, 
+        time: "2017-01-02 12:49:36", 
+        province: null, 
+        city: null, 
+        fxid: null, 
+        tel: "15900008755", 
+        sex: null, 
+        sign: null, 
+        password: "hknzG4]<", 
+        session: "2B8D0414-75E9-F5C6-3A00-6EC64B2D2232", 
+        friend: [ ], 
+        game: {
+            status: "-1",  1已审核 0 未审核 -1已驳回
+            name: null, 
+            services: "100区", 
+            channel: "IOS APP STORE", 
+            game: "诛仙手游 "
+        }
+    }, 
+    code: 1
+}
+
+#搜索用户
+#searchuser
+
+game    游戏 仅传ID
+channel 下载渠道  仅传ID
+services    区服 仅传ID
+system  平台 仅传ID
+name    角色名称
+
+{
+    user: {
+        userId: "100000", 
+        avatar: null, 
+        nick: null, 
+        time: "2017-01-02 12:49:36", 
+        province: null, 
+        city: null, 
+        fxid: null, 
+        tel: "15900008755", 
+        sex: null, 
+        sign: null, 
+        password: "hknzG4]<", 
+        game_name: null, 
+        game_services: "100区", 
+        game_channel: "IOS APP STORE", 
+        game_game: "诛仙手游 "
+    }, 
+    code: 1
+}
+#随机用户
+#searchuserrand
+
+返回10条
+{
+    user: [
+        {
+            userId: "100000", 
+            avatar: null, 
+            nick: null, 
+            time: "2017-01-02 12:49:36", 
+            province: null, 
+            city: null, 
+            fxid: null, 
+            tel: "15900008755", 
+            sex: null, 
+            sign: null, 
+            password: "hknzG4]<", 
+            game_name: null, 
+            game_services: "100区", 
+            game_channel: "IOS APP STORE", 
+            game_game: "诛仙手游 "
+        }
+    ], 
+    code: 1
+}
