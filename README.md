@@ -10,7 +10,11 @@
 #最具诚意的开源IM系统 YiChat#
 1. github地址:[https://github.com/YiChat](https://github.com/YiChat)
 2. 开源中国地址:[https://git.oschina.net/zhangfeng_tech](https://git.oschina.net/zhangfeng_tech)
+
+
 ##本项目的开源内容##
+
+
 ###已开源的所有源码:###
 1. IM服务器(负责即时通讯消息)-直接部署,无需修改参数
 2. api服务器(非IM模块相关的其他业务逻辑)-修改一处参数,详见工程下文档
